@@ -29,7 +29,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/znk2e2.png",
 // add custom menu and mention reply image url
-MENU_VIDEO_URL: process.env.VIDEO_IMAGE_URL || "https://files.catbox.moe/5yq9nj.mp4"
+MENU_VIDEO_URL: process.env.VIDEO_IMAGE_URL || "https://files.catbox.moe/5yq9nj.mp4",
 // add custom menu and mention reply video url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   

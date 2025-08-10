@@ -27,7 +27,7 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/znk2e2.png",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "",
 // add custom menu and mention reply image url
 MENU_VIDEO_URL: process.env.VIDEO_IMAGE_URL || "https://files.catbox.moe/5yq9nj.mp4",
 // add custom menu and mention reply video url

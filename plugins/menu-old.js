@@ -13,16 +13,16 @@ cmd({
 },
 async (conn, mek, m, { from, sender, pushname, reply }) => {
     try {
-        const dec = `╭━━━〔 *${config.BOT_NAME} Main Menu* 〕━━━╮
+        const dec = `╭━〔 *${config.BOT_NAME} Main Menu* 〕━╮
 ┃ ✨ *Owner:* ${config.OWNER_NAME}
 ┃ ⚙️ *Mode:* ${config.MODE}
 ┃ 📡 *Platform:* Heroku
 ┃ 🧠 *Type:* NodeJs (Multi Device)
 ┃ ⌨️ *Prefix:* ${config.PREFIX}
 ┃ 🧾 *Version:* 3.0.0 Beta
-╰━━━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━━━╯
 
-╭━━〔 🧩 *Command Categories* 〕━━╮
+╭━〔 🧩 *Command Categories* 〕━╮
 ┃ 📖 Quranmenu
 ┃ 🕋 Prayertime
 ┃ 🤖 Aimenu
@@ -39,7 +39,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
 ┃ 🧩 Othermenu
 ┃ 🖌️ Logo
 ┃ 📦 Repo
-╰━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 > ${config.DESCRIPTION}
 `;
 

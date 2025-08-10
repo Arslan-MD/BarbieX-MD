@@ -64,7 +64,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
 
         // Send cool voice note with context
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYT36/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: 'https://github.com/Arslan-MD/BarbieX-MD/blob/main/assets/barbieX-MD.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: {

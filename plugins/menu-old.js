@@ -69,7 +69,12 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                 audio: fs.readFileSync(audioPath),
                 mimetype: 'audio/mp4',
                 ptt: true
-         }, { quoted: mek });
+            }
+           
+        }
+        
+    }, 
+    { quoted: mek });
 
     } catch (e) {
         console.error(e);

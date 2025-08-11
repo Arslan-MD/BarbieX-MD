@@ -46,7 +46,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL },
+                video: { url: config.MENU_VIDEO_URL },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -64,7 +64,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
 
         // Send cool voice note with context
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/Arslan-MD/BarbieX-MD/blob/main/assets/BarbieX-MD.mp3' },
+            audio: { url: 'https://files.catbox.moe/zjdphm.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: {

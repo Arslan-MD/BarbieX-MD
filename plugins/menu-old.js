@@ -65,7 +65,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
         // Send cool voice note with context
         await conn.sendMessage(from, {
             audio: { url: 'https://files.catbox.moe/zjdphm.mp3' },
-            mimetype: 'audio/mp4',
+            mimetype: 'audio/mp3',
             ptt: true,
             contextInfo: {
                 mentionedJid: [m.sender],

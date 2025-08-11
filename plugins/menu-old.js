@@ -63,10 +63,12 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
         );
 
         // Send cool voice note with context
-        await conn.sendMessage(from, {
-            audio: { url: '../assets/barbieX-MD.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true,
+        const audioPath = path.join(__dirname, '../assets/barbieX-MD.mp3');
+        if (fs.existsSync(audioPath)) {
+            await sock.sendMessage(chatId, {
+                audio: fs.readFileSync(audioPath),
+                mimetype: 'audio/mp4',
+                ptt: true
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,

@@ -69,17 +69,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                 audio: fs.readFileSync(audioPath),
                 mimetype: 'audio/mp4',
                 ptt: true
-            contextInfo: {
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: 'BarbieX-MD',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
+         }, { quoted: mek });
 
     } catch (e) {
         console.error(e);
